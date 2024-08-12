@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import freeCodeCampLogo from './imagenes/freecodecamp-logo.png';
-import TareaFormulario from './componentos/TareaFormulario';
+import ListaDeTareas from './componentos/ListaDeTareas';
 
 function App() {
   return (
@@ -15,8 +15,7 @@ function App() {
       </div>
       <div className="tareas-lista-principal">
         <h1>Mis Tareas 📝</h1>
-
-        <TareaFormulario />
+        <ListaDeTareas />
       </div>
     </div>
   );
